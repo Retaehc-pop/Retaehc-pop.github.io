@@ -51,10 +51,20 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
-  border-top: 1px solid rgb(63, 63, 63)
+  border-top: 1px solid rgb(63, 63, 63);
 }
 h1{
   text-align: center;
+}
+.button{
+  cursor: pointer;
+  background-color: rgb(63, 63, 63);
+  color: #eeee;
+  padding : 0rem 1.5rem;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .animation {
   height:50px;
